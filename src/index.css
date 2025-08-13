@@ -1,0 +1,58 @@
+:root {
+  font-family:'Times New Roman', Times, serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background: #42275a;
+  background: -webkit-linear-gradient(to left, #734b6d, #42275a);
+  background: linear-gradient(to left, #734b6d, #42275a);
+}
+
+
+.InputContainer {
+  width: 27rem;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom,rgb(227, 213, 255),rgb(255, 231, 231));
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.input {
+  width: 27rem;
+  height: 40px;
+  border: none;
+  outline: none;
+  caret-color: rgb(255, 81, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding-left: 15px;
+  letter-spacing: 0.8px;
+  color: rgb(19, 19, 19);
+  font-size: 1rem;
+  font-weight: 500;
+}
+ 
+.List {
+  width: 26.5rem;
+  height: 3.8rem;
+  border: none;
+  outline: none;
+  caret-color: rgb(255, 81, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding-left: 15px;
+  letter-spacing: 0.8px;
+  color: rgb(19, 19, 19);
+  font-size: 1rem;
+  font-weight: 400;
+  
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
