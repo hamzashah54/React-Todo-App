@@ -64,7 +64,7 @@
 
 ### Deploy
 
-* Deploy the app to a production environment using your preferred method
+* Deploy Link: https://todo-app-by-hamza.vercel.app/
 
 🧪 Testing Instructions
 ----------------------
